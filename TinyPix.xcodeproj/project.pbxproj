@@ -14,6 +14,7 @@
 		FB4CBE901EF7CAA40059D4D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB4CBE8F1EF7CAA40059D4D1 /* Assets.xcassets */; };
 		FB4CBE931EF7CAA40059D4D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB4CBE911EF7CAA40059D4D1 /* LaunchScreen.storyboard */; };
 		FB4CBE9C1EF7CAB40059D4D1 /* TinyPixDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4CBE9B1EF7CAB40059D4D1 /* TinyPixDocument.m */; };
+		FBCCFC761EFA0B6A0074D73A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCCFC751EFA0B6A0074D73A /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		FB4CBE941EF7CAA40059D4D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB4CBE9A1EF7CAB40059D4D1 /* TinyPixDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TinyPixDocument.h; sourceTree = "<group>"; };
 		FB4CBE9B1EF7CAB40059D4D1 /* TinyPixDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TinyPixDocument.m; sourceTree = "<group>"; };
+		FBCCFC741EFA0B6A0074D73A /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		FBCCFC751EFA0B6A0074D73A /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,8 @@
 				FB4CBE871EF7CAA40059D4D1 /* AppDelegate.m */,
 				FB4CBE891EF7CAA40059D4D1 /* ViewController.h */,
 				FB4CBE8A1EF7CAA40059D4D1 /* ViewController.m */,
+				FBCCFC741EFA0B6A0074D73A /* DetailViewController.h */,
+				FBCCFC751EFA0B6A0074D73A /* DetailViewController.m */,
 				FB4CBE8C1EF7CAA40059D4D1 /* Main.storyboard */,
 				FB4CBE8F1EF7CAA40059D4D1 /* Assets.xcassets */,
 				FB4CBE911EF7CAA40059D4D1 /* LaunchScreen.storyboard */,
@@ -155,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBCCFC761EFA0B6A0074D73A /* DetailViewController.m in Sources */,
 				FB4CBE9C1EF7CAB40059D4D1 /* TinyPixDocument.m in Sources */,
 				FB4CBE8B1EF7CAA40059D4D1 /* ViewController.m in Sources */,
 				FB4CBE881EF7CAA40059D4D1 /* AppDelegate.m in Sources */,
@@ -315,6 +321,7 @@
 				FB4CBE991EF7CAA40059D4D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
